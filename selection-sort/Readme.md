@@ -17,7 +17,7 @@
 
 * 18 sayısı dizinin ortasında olduğu için average case kapsamına girer.
 
-## [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı
+### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı
 
 * [2,3,5,8,7,9,4,15,6] 
 * [2,3,4,8,7,9,5,15,6] 
