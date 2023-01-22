@@ -17,10 +17,10 @@ Then it prints the algorithm version(as ver1,ver2,ver3,ver4 ), input type (as ty
 
 Implemented every version of the four quicksort algorithm in different files:
 
-version1 : The classical deterministic algorithm. The pivot is chosen as the first element of the list. 
-version2 : The randomized algorithm. The pivot is chosen randomly. This is the algorithm  “Quicksort (1st version)” in the course slides
-version3 : The randomized algorithm. The list is first randomly permuted and then the classical deterministic algorithm is called where the pivot is chosen as the first element of the list.
-version4 : The deterministic algorithm. The pivot is chosen according to the “median of three”  rule.
+* version1 : The classical deterministic algorithm. The pivot is chosen as the first element of the list. 
+* version2 : The randomized algorithm. The pivot is chosen randomly. This is the algorithm  “Quicksort (1st version)” in the course slides
+* version3 : The randomized algorithm. The list is first randomly permuted and then the classical deterministic algorithm is called where the pivot is chosen as the first element of the list.
+* version4 : The deterministic algorithm. The pivot is chosen according to the “median of three”  rule.
 
 - All of these versions works with quicksort () methods takes an array, low,high and algorithmversion parameters as input and returns sorted list. For the version3 we sent the array to second_version_quicksort() method first. This method first permutes the list and then sends it to quicksort() method.
 
